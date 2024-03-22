@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  border: 1px solid green;
+  justify-content: space-around;
+  box-shadow: 0 1px 1px -1px white;
+  height: 100px;
+}
+.navbarLogo img {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  font-size: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbarLogo h2 {
+  display: flex;
+  color: rgb(240, 149, 30);
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  color: #626262;
+  font-size: 17px;
+  justify-content: center;
+  font-weight: 500;
+}
+.navLinks li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.leftDiv {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  justify-content: center;
+  align-items: center;
+}
+.leftDiv img {
+  font-size: 10px;
+  height: 70px;
+  width: 60px;
+  gap: 80px;
+}
+.accountDiv {
+  display: flex;
+  height: 70px;
+  width: 5px;
+  margin-top: 10px;
+  justify-content: space-around;
+}
+.accountDiv img {
+  display: flex;
+  align-items: center;
+}
+.loginTag {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid green; */
+  justify-content: center;
+  margin-bottom: 10px;
+  color: rgb(213, 94, 39);
+  cursor: pointer;
+}
+.loginTag {
+  display: flex;
+  border: none;
+  /* border: 2px solid red; */
+}
+.loginTag button {
+  border: 2px solid green;
+  padding: 20px;
+  color: white;
+  background-color: rgb(255, 132, 0);
+  border-radius: 15px;
+  cursor: pointer;
+}
