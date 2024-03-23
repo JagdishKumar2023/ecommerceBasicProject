@@ -1,13 +1,12 @@
 import "./App.css";
 import Navbar from "./Navbar/Navbar";
 import Caurasal from "./components/Caurasal";
-import { slides } from "./data/carusaldata.json";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar />
-      <Caurasal data={slides} />
+      <Caurasal />
     </div>
   );
 }
