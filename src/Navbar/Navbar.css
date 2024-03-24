@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .navbar {
   display: flex;
   border: 1px solid green;
@@ -18,12 +17,12 @@
   font-size: 30px;
   justify-content: space-around;
   align-items: center;
+  text-decoration: none;
 }
 .navbarLogo h2 {
   display: flex;
   color: rgb(240, 149, 30);
 }
-
 .navLinks {
   display: flex;
   align-items: center;
@@ -41,6 +40,7 @@
   gap: 3px;
   cursor: pointer;
   margin-top: 30px;
+  text-decoration: none;
 }
 .leftDiv {
   display: flex;
