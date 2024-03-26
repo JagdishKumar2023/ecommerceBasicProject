@@ -2,11 +2,12 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import PageNotFound from "./components/PageNotFound";
 import LoginPage from "./Pages/LoginPage";
+import DataDisplay from "./DataDisplay/DataDisplay";
 
 const AllRoutes = () => {
   return (
     <Routes>
-      <Route path="/" />
+      <Route path="/" element={<DataDisplay />} />
       <Route path="/about" />
       <Route path="/feedback" />
       <Route path="/product" />
