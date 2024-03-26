@@ -1,14 +1,15 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 .navbar {
   display: flex;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   justify-content: space-around;
-  box-shadow: 0 1px 1px -1px white;
+  box-shadow: 0 2px 2px -1px rgb(218, 127, 9);
   height: 100px;
+  background-color: rgb(255, 253, 240);
 }
 .navbarLogo img {
   display: flex;
@@ -17,13 +18,13 @@
   font-size: 30px;
   justify-content: space-around;
   align-items: center;
-  text-decoration: none;
 }
 .navbarLogo h2 {
   display: flex;
   color: rgb(240, 149, 30);
 }
 .navLinks {
+  text-decoration: none;
   display: flex;
   align-items: center;
   list-style: none;
@@ -41,6 +42,8 @@
   cursor: pointer;
   margin-top: 30px;
   text-decoration: none;
+  color: rgb(243, 158, 11);
+  font-weight: 400;
 }
 .leftDiv {
   display: flex;
@@ -81,10 +84,13 @@
   /* border: 2px solid red; */
 }
 .loginTag button {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   padding: 20px;
-  color: white;
-  background-color: rgb(255, 132, 0);
+  color: whitesmoke;
+  background-color: rgb(220, 157, 61);
   border-radius: 15px;
   cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 20px;
 }

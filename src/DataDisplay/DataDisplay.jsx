@@ -13,7 +13,7 @@ const DataDisplay = () => {
                 <img src={ele.image} alt="" className="imageTag" />
                 <h4 className="brandforSale">{ele.brand}</h4>
                 <p className="priceofProduct">₹{ele.price}</p>
-                <button></button>
+                <button className="addToCartBtn">ADD TO CART</button>
               </div>
             </>
           </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import PageNotFound from "./components/PageNotFound";
+import LoginPage from "./Pages/LoginPage";
 
 const AllRoutes = () => {
   return (
@@ -9,7 +10,7 @@ const AllRoutes = () => {
       <Route path="/about" />
       <Route path="/feedback" />
       <Route path="/product" />
-      <Route path="/login" />
+      <Route path="/login" element={<LoginPage />} />
       <Route path="/cart" />
       <Route path="/profile" />
       <Route path="*" element={<PageNotFound />} />

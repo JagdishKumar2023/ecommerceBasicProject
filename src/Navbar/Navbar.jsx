@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <Link to="/">
+      <Link to="/" style={{ textDecoration: "none" }}>
         <div className="navbarLogo">
           {" "}
           <img src={logo} alt="" />
@@ -20,39 +20,39 @@ const Navbar = () => {
 
       <div>
         <ul className="navLinks">
-          <Link to="/">
+          <Link to="/" style={{ textDecoration: "none" }}>
             <li>Home</li>
           </Link>
-          <Link to="/about">
+          <Link to="/about" style={{ textDecoration: "none" }}>
             <li>About</li>
           </Link>
-          <Link to="/feedback">
+          <Link to="/feedback" style={{ textDecoration: "none" }}>
             <li>Feedback</li>
           </Link>
-          <Link to="/product">
+          <Link to="/product" style={{ textDecoration: "none" }}>
             <li>Product</li>
           </Link>
         </ul>
       </div>
 
       <div className="leftDiv">
-        <Link to="/cart">
+        <Link to="/cart" style={{ textDecoration: "none" }}>
           {" "}
           <img src={cartIcon} alt="" />
         </Link>
       </div>
 
-      <Link to="/profile">
+      <Link to="/profile" style={{ textDecoration: "none" }}>
         <div className="accountDiv">
           <img src={account} alt="" />{" "}
         </div>
       </Link>
 
-      <div className="loginTag">
-        <button>
-          <Link to="/login">Login</Link>
-        </button>
-      </div>
+      <Link to="/login" style={{ textDecoration: "none" }}>
+        <div className="loginTag">
+          <button>Login</button>
+        </div>
+      </Link>
     </div>
   );
 };

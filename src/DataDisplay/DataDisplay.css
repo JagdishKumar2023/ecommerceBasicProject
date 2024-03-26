@@ -11,6 +11,7 @@
   margin-top: 30px;
   align-items: center;
   margin-left: 40px;
+  row-gap: 20px;
 }
 
 .displayMainContainer {
@@ -25,4 +26,24 @@
   height: 400px;
   width: 420px;
   border-radius: 10px;
+  margin-bottom: 10px;
+}
+.containerAllItems img {
+  /* border: 2px solid red; */
+  margin-bottom: 10px;
+}
+.brandforSale {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.priceofProduct {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.addToCartBtn {
+  padding: 10px;
+  color: whitesmoke;
+  border-radius: 15px;
+  background-color: orange;
 }
