@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.displayContaine {
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.displayMainContainer {
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid gray; */
+}
+.displayMainContainer img {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 400px;
+  width: 420px;
+  border-radius: 10px;
+}
