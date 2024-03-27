@@ -19,12 +19,11 @@ import shoes6 from "../Assets/PumaShoes7.jpg";
 import suit1 from "../Assets/suit3.avif";
 import suit2 from "../Assets/suit6.jpg";
 import suit3 from "../Assets/suitforgrils1.jpeg";
-import suit4 from "../Assets/suitForwomen5.avif";
+import suit4 from "../Assets/suitForwomen10.jpg";
 import suit5 from "../Assets/suitForwomen5.jpg";
 import suit6 from "../Assets/suitForwomen7.jpeg";
-import suit7 from "../Assets/suitForwomen5.avif";
+import suit7 from "../Assets/suitForwomen7.webp";
 import suit8 from "../Assets/suitForwomen9.webp";
-import suit9 from "../Assets/Suit 8.jpeg";
 
 let ecommData = [
   // Shirt for men
@@ -164,45 +163,66 @@ let ecommData = [
 
   {
     id: 19,
-    brand: "Puma",
-    image: shoes6,
-    price: 1250,
-    type: "Shoes",
+    brand: "Van Heusan",
+    image: suit1,
+    price: 999,
+    type: "Suit",
   },
   {
-    id: 18,
-    brand: "Puma",
-    image: shoes6,
+    id: 20,
+    brand: "Park Avenue",
+    image: suit2,
     price: 1250,
-    type: "Shoes",
+    type: "Suit",
   },
   {
-    id: 18,
-    brand: "Puma",
-    image: shoes6,
-    price: 1250,
-    type: "Shoes",
+    id: 21,
+    brand: "ManQ",
+    image: suit3,
+    price: 1199,
+    type: "Suit",
   },
   {
-    id: 18,
-    brand: "Puma",
-    image: shoes6,
-    price: 1250,
-    type: "Shoes",
+    id: 22,
+    brand: "Biba",
+    image: suit3,
+    price: 1100,
+    type: "Suit",
   },
   {
-    id: 18,
-    brand: "Puma",
-    image: shoes6,
-    price: 1250,
-    type: "Shoes",
+    id: 23,
+    brand: "W",
+    image: suit4,
+    price: 1400,
+    type: "Suit",
   },
   {
-    id: 18,
-    brand: "Puma",
-    image: shoes6,
-    price: 1250,
-    type: "Shoes",
+    id: 24,
+    brand: "fabindia",
+    image: suit5,
+    price: 1440,
+    type: "Suit",
+  },
+  {
+    id: 25,
+    brand: "Zara",
+    image: suit6,
+    price: 1500,
+    type: "Suit",
+  },
+  {
+    id: 26,
+    brand: "Westside",
+    image: suit7,
+    price: 1700,
+    type: "Suit",
+  },
+  {
+    id: 27,
+    brand: "Suit",
+    image: suit8,
+    price: 1840,
+    type: "Suit",
   },
 ];
 

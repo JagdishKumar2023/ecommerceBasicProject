@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import "./SignupPage.css";
 
 const SignupPage = () => {
   const [formData, setFormData] = useState({
@@ -27,9 +28,9 @@ const SignupPage = () => {
   };
 
   return (
-    <div>
-      <h2>Signup Page</h2>
-      <form onSubmit={handleSubmit}>
+    <div className="mainContainer">
+      <form onSubmit={handleSubmit} className="formContainer">
+        <h2>Signup Page</h2>
         <label>
           Username:
           <input
@@ -37,6 +38,8 @@ const SignupPage = () => {
             name="username"
             value={formData.username}
             onChange={handleChange}
+            className="inputTag"
+            placeholder="Enter username"
           />
         </label>
         <br />
@@ -47,6 +50,8 @@ const SignupPage = () => {
             name="email"
             value={formData.email}
             onChange={handleChange}
+            className="inputTag"
+            placeholder="Enter your Email"
           />
         </label>
         <br />
@@ -57,11 +62,16 @@ const SignupPage = () => {
             name="password"
             value={formData.password}
             onChange={handleChange}
+            placeholder="Enter Password"
           />
         </label>
         <br />
         <button type="submit">Sign Up</button>
-        <Link path="/signup"></Link>
+        <Link path="/signup">
+          <button>
+            <p>Click to signup</p>
+          </button>
+        </Link>
       </form>
     </div>
   );

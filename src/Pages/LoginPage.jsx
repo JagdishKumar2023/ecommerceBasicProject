@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
+import "./LoginPage.css";
 
 const LoginPage = () => {
   const [formData, setFormData] = useState({
@@ -50,21 +51,23 @@ const LoginPage = () => {
   //   };
 
   return (
-    <div>
+    <div className="mainContainerOfLogin">
       {loggedIn ? (
-        <div>
+        <div className="loginMainContainer">
           <h2>Welcome, {formData.username}!</h2>
           <button onClick={handleLogout}>Logout</button>
         </div>
       ) : (
-        <form onSubmit={handleLogin}>
+        <form onSubmit={handleLogin} className="formContainer">
           <label>
+            <h2 className="loginContainer">Login</h2>
             Username:
             <input
               type="text"
               name="username"
               value={formData.username}
               onChange={handleChange}
+              className="inputField"
             />
           </label>
           <br />
@@ -80,9 +83,10 @@ const LoginPage = () => {
           <br />
           <button type="submit">Login</button>
           {error && <div>{error}</div>}
-          <Routes>
-            <Route path="/signup" />
-          </Routes>
+          <Link to="/signup">
+            {" "}
+            <button>Click her to signup</button>
+          </Link>
         </form>
       )}
     </div>

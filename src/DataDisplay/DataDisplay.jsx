@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import ecommData from "../ProductData/ProductData";
+// import ecommData from "../ProductData/ProductData";
 import "./DataDisplay.css";
 import { SearchContext } from "../Context/SearchContext";
 

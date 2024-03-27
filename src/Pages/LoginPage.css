@@ -1,0 +1,30 @@
+.loginMainContainer {
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainContainerOfLogin {
+  /* border: 2px solid rgb(255, 0, 0); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+.loginContainer {
+  color: rgb(24, 24, 204);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.formContainer {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputField {
+  border: 2px solid gold;
+}
