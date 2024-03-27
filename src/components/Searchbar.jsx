@@ -8,9 +8,7 @@ const Searchbar = () => {
   const nameValue = useContext(SearchContext);
   console.log(nameValue);
 
-  const handleSearch = () => {
-    console.log("hi");
-  };
+  const handleSearch = () => {};
 
   return (
     <div className="searchContainer">

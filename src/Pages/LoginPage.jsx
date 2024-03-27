@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Route, Routes } from "react-router-dom";
 
 const LoginPage = () => {
   const [formData, setFormData] = useState({
@@ -79,6 +80,9 @@ const LoginPage = () => {
           <br />
           <button type="submit">Login</button>
           {error && <div>{error}</div>}
+          <Routes>
+            <Route path="/signup" />
+          </Routes>
         </form>
       )}
     </div>

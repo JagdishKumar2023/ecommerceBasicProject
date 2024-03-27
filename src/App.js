@@ -1,8 +1,8 @@
 import "./App.css";
 import Navbar from "./Navbar/Navbar";
 import AllRoutes from "./AllRoutes";
+import Searchbar from "./components/Searchbar";
 // import DataDisplay from "./DataDisplay/DataDisplay";
-import Searchbar from "./Pages/Searchbar";
 // import Home from "./Pages/Home";
 
 function App() {

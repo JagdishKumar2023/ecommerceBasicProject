@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const SignupPage = () => {
   const [formData, setFormData] = useState({
@@ -8,6 +9,7 @@ const SignupPage = () => {
   });
 
   const handleChange = (e) => {
+    console.log(e);
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -59,6 +61,7 @@ const SignupPage = () => {
         </label>
         <br />
         <button type="submit">Sign Up</button>
+        <Link path="/signup"></Link>
       </form>
     </div>
   );
