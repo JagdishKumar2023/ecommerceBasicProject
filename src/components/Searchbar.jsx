@@ -1,23 +1,27 @@
 import React, { useContext, useState } from "react";
 import "./Searchbar.css";
+import ecommData from "../ProductData/ProductData";
 import { IoIosSearch } from "react-icons/io";
 import { SearchContext } from "../Context/SearchContext";
+// import { SearchContext } from "../Context/SearchContext";
 
 const Searchbar = () => {
-  const [search, setSerach] = useState("");
-  const nameValue = useContext(SearchContext);
-  console.log(nameValue);
-
-  const handleSearch = () => {};
-
+  const {
+    searchData,
+    setSerachData,
+    handleChange,
+    handleSearch,
+    handleEnterKey,
+  } = useContext(SearchContext);
   return (
     <div className="searchContainer">
       <input
         type="search"
-        placeholder="Search here.."
+        placeholder="eg. shirt, shoes, watch..."
         className="inputBox"
-        value={search}
-        onChange={(e) => setSerach(e.target.value)}
+        value={searchData}
+        onChange={handleChange}
+        onKeyUp={handleEnterKey}
       />
       <div className="searchIconDiv">
         <IoIosSearch className="searchIcon" onClick={handleSearch} />

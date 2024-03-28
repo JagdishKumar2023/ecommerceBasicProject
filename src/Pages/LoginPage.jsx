@@ -68,6 +68,7 @@ const LoginPage = () => {
               value={formData.username}
               onChange={handleChange}
               className="inputField"
+              placeholder="Enter username "
             />
           </label>
           <br />
@@ -78,6 +79,7 @@ const LoginPage = () => {
               name="password"
               value={formData.password}
               onChange={handleChange}
+              placeholder="Enter password"
             />
           </label>
           <br />
