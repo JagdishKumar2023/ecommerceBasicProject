@@ -28,6 +28,11 @@
   border-radius: 10px;
   margin-bottom: 10px;
 }
+
+/*.containerAllItems {
+ border: 2px solid red;
+/* } */
+
 .containerAllItems img {
   /* border: 2px solid red; */
   margin-bottom: 10px;
@@ -42,9 +47,8 @@
   margin-bottom: 10px;
 }
 .addToCartBtn {
-  padding: 10px;
+  /* padding: 10px; */
   color: whitesmoke;
   border-radius: 15px;
   background-color: orange;
-  margin-left: 300px;
 }

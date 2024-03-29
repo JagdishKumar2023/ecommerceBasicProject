@@ -4,6 +4,7 @@ import PageNotFound from "./components/PageNotFound";
 import LoginPage from "./Pages/LoginPage";
 import DataDisplay from "./DataDisplay/DataDisplay";
 import SignupPage from "./Pages/SignupPage";
+import Cart from "./Pages/Cart";
 
 const AllRoutes = () => {
   return (
@@ -14,7 +15,7 @@ const AllRoutes = () => {
       <Route path="/product" />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/signup" element={<SignupPage />} />
-      <Route path="/cart" />
+      <Route path="/cart" element={<Cart />} />
       <Route path="/profile" />
       <Route path="*" element={<PageNotFound />} />
     </Routes>
