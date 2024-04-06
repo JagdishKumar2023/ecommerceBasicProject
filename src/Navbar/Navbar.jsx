@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import logo from "../Assets/icons8-loading-infinity.gif";
 import cartIcon from "../Assets/carts.png";
 import account from "../Assets/profile.png";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import { CartContext } from "../Context/CartContext";
 // import LoginPage from "../Pages/LoginPage";
 // import DataDisplay from "../DataDisplay/DataDisplay";
 // import { FormatColorText } from "@mui/icons-material";
 // import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const { totalItems } = useContext(CartContext);
   return (
     <>
       <div className="navbar">
@@ -40,7 +42,7 @@ const Navbar = () => {
 
         <div className="leftDiv">
           <Link to="/cart" style={{ textDecoration: "none" }}>
-            {" "}
+            {totalItems}
             <img src={cartIcon} alt="" />
           </Link>
         </div>

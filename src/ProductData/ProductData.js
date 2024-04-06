@@ -33,6 +33,7 @@ let ecommData = [
     image: Image1,
     price: 700,
     type: "shirt",
+    count: 0,
   },
   {
     id: 2,
@@ -40,6 +41,7 @@ let ecommData = [
     image: Image2,
     price: 1200,
     type: "shirt",
+    count: 0,
   },
   {
     id: 3,
@@ -47,6 +49,7 @@ let ecommData = [
     image: Shirt1,
     price: 1400,
     type: "shirt",
+    count: 0,
   },
   {
     id: 4,
@@ -54,6 +57,7 @@ let ecommData = [
     image: Shirt2,
     price: 930,
     type: "shirt",
+    count: 0,
   },
   {
     id: 5,
@@ -61,6 +65,7 @@ let ecommData = [
     image: Shirt3,
     price: 1500,
     type: "shirt",
+    count: 0,
   },
   {
     id: 6,
@@ -68,6 +73,7 @@ let ecommData = [
     image: Shirt4,
     price: 1800,
     type: "shirt",
+    count: 0,
   },
   {
     id: 7,
@@ -75,6 +81,7 @@ let ecommData = [
     image: Shirt5,
     price: 2200,
     type: "shirt",
+    count: 0,
   },
   {
     id: 8,
@@ -82,6 +89,7 @@ let ecommData = [
     image: Shirt6,
     price: 1500,
     type: "shirt",
+    count: 0,
   },
   {
     id: 9,
@@ -89,6 +97,7 @@ let ecommData = [
     image: Shirt7,
     price: 1800,
     type: "shirt",
+    count: 0,
   },
 
   // Jenas for men
@@ -99,6 +108,7 @@ let ecommData = [
     image: Jeans,
     price: 999,
     type: "Jeans",
+    count: 0,
   },
   {
     id: 11,
@@ -106,6 +116,7 @@ let ecommData = [
     image: Jeans2,
     price: 1399,
     type: "Jeans",
+    count: 0,
   },
   {
     id: 12,
@@ -113,6 +124,7 @@ let ecommData = [
     image: Jeans3,
     price: 1800,
     type: "Jeans",
+    count: 0,
   },
 
   // shoes
@@ -123,6 +135,7 @@ let ecommData = [
     image: shoes1,
     price: 1100,
     type: "Shoes",
+    count: 0,
   },
   {
     id: 14,
@@ -130,6 +143,7 @@ let ecommData = [
     image: shoes2,
     price: 899,
     type: "Shoes",
+    count: 0,
   },
   {
     id: 15,
@@ -137,6 +151,7 @@ let ecommData = [
     image: shoes3,
     price: 1288,
     type: "Shoes",
+    count: 0,
   },
   {
     id: 16,
@@ -144,6 +159,7 @@ let ecommData = [
     image: shoes4,
     price: 2500,
     type: "Shoes",
+    count: 0,
   },
   {
     id: 17,
@@ -151,6 +167,7 @@ let ecommData = [
     image: shoes5,
     price: 3200,
     type: "Shoes",
+    count: 0,
   },
   {
     id: 18,
@@ -158,6 +175,7 @@ let ecommData = [
     image: shoes6,
     price: 1250,
     type: "Shoes",
+    count: 0,
   },
   // Suit for womens
 
@@ -167,6 +185,7 @@ let ecommData = [
     image: suit1,
     price: 999,
     type: "Suit",
+    count: 0,
   },
   {
     id: 20,
@@ -174,6 +193,7 @@ let ecommData = [
     image: suit2,
     price: 1250,
     type: "Suit",
+    count: 0,
   },
   {
     id: 21,
@@ -181,6 +201,7 @@ let ecommData = [
     image: suit3,
     price: 1199,
     type: "Suit",
+    count: 0,
   },
   {
     id: 22,
@@ -188,6 +209,7 @@ let ecommData = [
     image: suit3,
     price: 1100,
     type: "Suit",
+    count: 0,
   },
   {
     id: 23,
@@ -195,6 +217,7 @@ let ecommData = [
     image: suit4,
     price: 1400,
     type: "Suit",
+    count: 0,
   },
   {
     id: 24,
@@ -202,6 +225,7 @@ let ecommData = [
     image: suit5,
     price: 1440,
     type: "Suit",
+    count: 0,
   },
   {
     id: 25,
@@ -209,6 +233,7 @@ let ecommData = [
     image: suit6,
     price: 1500,
     type: "Suit",
+    count: 0,
   },
   {
     id: 26,
@@ -216,6 +241,7 @@ let ecommData = [
     image: suit7,
     price: 1700,
     type: "Suit",
+    count: 0,
   },
   {
     id: 27,
@@ -223,6 +249,7 @@ let ecommData = [
     image: suit8,
     price: 1840,
     type: "Suit",
+    count: 0,
   },
 ];
 

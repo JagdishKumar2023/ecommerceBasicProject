@@ -4,7 +4,7 @@ import PageNotFound from "./components/PageNotFound";
 import LoginPage from "./Pages/LoginPage";
 import DataDisplay from "./DataDisplay/DataDisplay";
 import SignupPage from "./Pages/SignupPage";
-import Cart from "./Pages/Cart";
+import Cart from "./Pages/Cart/Cart";
 
 const AllRoutes = () => {
   return (
