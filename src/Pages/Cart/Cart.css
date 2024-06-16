@@ -1,19 +1,9 @@
-.mainContainerCartPage > .mainContainerCartPage {
+.mainContainerCartPage {
   /* border: 2px solid red; */
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
 }
-.containerAllItems {
-  /* border: 2px solid green; */
-  display: flex;
-  gap: 100px;
-  border-radius: 40px;
-  padding-left: 100px;
-}
+
 .imageTag {
-  /* border: 2px solid yellow; */
-  height: 500px;
-  width: 500px;
+  /* border: 2px solid red; */
+  width: 350px;
+  height: 240px;
 }

@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className="navbarLogo">
             {" "}
             <img src={logo} alt="" />
-            <h2>Infinity Products</h2>
+            <h2>Infinity Shoping</h2>
           </div>
         </Link>
 

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { CartContext } from "../../Context/CartContext";
-// import "./Cart.css";
+import "./Cart.css";
 
 const Cart = () => {
   const {
@@ -11,6 +11,7 @@ const Cart = () => {
     dereaseCartQuantity,
   } = useContext(CartContext);
   //   console.log(cart);
+
   return (
     <div className="mainContainerCartPage">
       <div>Items - {totalItems}</div>

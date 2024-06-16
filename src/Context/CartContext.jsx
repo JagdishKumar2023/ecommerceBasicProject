@@ -66,11 +66,13 @@ export const CartProvider = ({ children }) => {
   let totalItems = cart.reduce((total, ele) => {
     return total + ele.quantity;
   }, 0);
+  // console.log(totalItems);
 
   // total price:-
   let totalPrice = cart.reduce((total, ele) => {
     return total + ele.quantity * ele.price;
   }, 0);
+  // console.log(totalPrice);
 
   return (
     <CartContext.Provider
