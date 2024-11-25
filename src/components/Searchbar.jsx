@@ -1,6 +1,7 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import "./Searchbar.css";
 import { IoIosSearch } from "react-icons/io";
+
 import { SearchContext } from "../Context/SearchContext";
 // import { SearchContext } from "../Context/SearchContext";
 

@@ -1,9 +1,8 @@
 .mainContainerCartPage {
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
-.imageTag {
-  /* border: 2px solid red; */
+.containerAllItems {
+  height: 400px;
   width: 350px;
-  height: 240px;
 }
